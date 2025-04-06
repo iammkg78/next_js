@@ -3,6 +3,7 @@
  
 
 function header({data}) {
+  //fe
   return (
     <div>
  {data.map(data=> <h2 key={data}>{data}</h2>)}
